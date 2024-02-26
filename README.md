@@ -1,4 +1,4 @@
-# Awesome Project Build with TypeORM
+# Easynote API Project
 
 Steps to run this project:
 
