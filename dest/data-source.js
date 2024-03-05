@@ -16,8 +16,8 @@ exports.AppDataSource = new typeorm_1.DataSource({
     port: 3306,
     username: "root",
     password: "admin1",
-    database: "easynotetest",
-    synchronize: false,
+    database: "notedb",
+    synchronize: true, // ONLY THE FIRST TIME RUNNING
     logging: true,
     entities: [Categorynote_1.Categorynote, Customer_1.Customer, Historynote_1.Historynote, Note_1.Note],
     migrations: [],
