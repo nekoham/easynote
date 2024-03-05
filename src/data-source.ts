@@ -14,7 +14,7 @@ export const AppDataSource = new DataSource({
     port: 3306,
     username: "root",
     password: "admin1",
-    database: "easynotetest",
+    database: "dbnote",
     synchronize: false,
     logging: true,
     entities: [Categorynote, Customer, Historynote, Note],
